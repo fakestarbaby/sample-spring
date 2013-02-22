@@ -11,5 +11,10 @@ group :assets do
 end
 
 group :development, :test do
+  gem 'terminal-notifier-guard'
+  gem 'guard-rspec'
+  gem 'rb-fsevent', :require => false
+  gem 'rspec-rails'
+  gem 'spring'
   gem 'sqlite3'
 end
